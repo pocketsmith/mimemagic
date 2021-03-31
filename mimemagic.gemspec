@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   s.add_dependency('nokogiri', '~> 1')
-  s.add_dependency('rake')
+  s.add_dependency('rake', '>= 10.0')
 
   s.add_development_dependency('minitest', '~> 5.14')
 
